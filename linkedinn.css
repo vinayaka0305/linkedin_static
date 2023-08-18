@@ -1,0 +1,346 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f3f3ef;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+nav .nav-first-list{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+nav .nav-second-list{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    padding-right: 40px;
+    text-align: center;
+}
+
+.nav-second-list .label-text{
+    margin-top: 5px;
+}
+
+nav .input-search{
+    height: 46px;
+    width: 155%;
+    border: 0;
+    padding-right: 2px;
+    padding-left: 30px;
+    background-color: #eef3f9;
+}
+
+.main-section{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    margin: 20px auto;
+}
+
+.main-section .left-content{
+    width: 35%;
+}
+.left-content .box-1{
+    width: 100%;
+    background-color: white;
+    height: 255px;
+    border-radius: 15px;  
+}
+.left-content .box-1 .background{
+    background-color: rgb(227, 221, 221);
+    width: 100%;
+    height: 50px;
+}
+.left-content .box-1 .fa-regular{
+    font-size: 30px;
+    position: absolute;
+    margin: -15px 74px;
+    color: #0d67c2;
+}
+.left-content .box-1 .heading{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.left-content .box-1 .sub-heading{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 5px;
+}
+
+.left-content .box-1 .para-column{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.left-content .box-1 .para-column .one{
+    color: gray;
+    font-size: 12px;
+    margin-left: 10px;
+}
+ .box-1 .para-column .two{
+    color: #0d67c2;
+    font-size: 12px;
+    margin-right: 5px;
+} 
+
+.left-content .box-2{
+    width: 100%;
+    background-color: white;
+    min-height: 200px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.left-content .box-2 .heading{
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.left-content .box-2 .list{
+    width: 65%;
+    margin: auto;
+    padding: 10px;
+}
+.left-content .box-2 .list .list-1{
+    display: inline-block;
+    
+}
+.left-content .box-2 .list .list-2{
+    display: inline-block;
+    margin-left: 5px;
+}
+.main-section .middle-content{
+    width: 100%;
+}
+.middle-content .box-1{
+    width: 100%;
+    background-color: white;
+    min-height: 100px;
+    border-radius: 15px;
+}
+
+.middle-content .box-1 .search{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.middle-content .box-1 .search .input{
+    width: 350px;
+    margin-top: 25px;
+    height: 45px;
+    border-radius: 22px;
+    border: 1px solid grey;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.middle-content .box-1 .search .fa-regular{
+    font-size: 55px;
+    margin-top: 20px;
+    color: #0d67c2;
+}
+.middle-content .box-1 .list{
+ display: flex;
+ justify-content: space-between;
+ gap: 25px;
+ list-style-type: none;
+ padding: 20px;
+
+}
+.middle-content .box-1 .list .sub-title{
+    margin-left: 10px;
+}
+
+.middle-content .box-2{
+    width: 100%;
+    background-color: white;
+    height: 300px;
+    margin-top: 20px;
+    font-size: 13px;
+    border-radius: 15px;
+}
+.middle-content .box-2 .profile{
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    gap: 10px;
+}
+
+.middle-content .box-2 .profile .circle{
+    width: 40px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: #0d67c2;
+    color: white;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 20px;
+}
+.middle-content .box-2 .profile .description{
+    margin-top: 20px;
+}
+.middle-content .box-2 .profile .description .name{
+    font-weight: bold;
+}
+
+.middle-content .box-2 .profile .description .designation{
+    font-size: 12px;
+}
+.middle-content .box-2 .paragraph{
+    width: 95%;
+    margin: 10px auto;
+    text-align: justify;
+}
+
+.middle-content .box-2 .social{
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.middle-content .box-2 .social .count{
+   padding-left: 10px;
+}
+.middle-content .box-2 .social .comments{
+    padding-right: 10px;
+ }
+
+ .middle-content .box-2 .social .fa-thumbs-up{
+    color: #358fe8;
+ }
+
+ .middle-content .box-2 .link{
+    width: 95%;
+    margin: 15px;
+}
+
+.middle-content .box-2 .header{
+    font-size: 14px;
+    font-weight: bold;
+}
+.middle-content .box-2 .sub-header{
+    font-size: 10px;
+}
+.middle-content .box-2 hr{
+    width: 95%;
+    margin: auto;
+}
+
+.middle-content .box-2 .icons{
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.middle-content .box-2 .icons .text{
+   padding: 10px;
+   color: #808080;
+}
+.middle-content .box-2 .icons .fa-text{
+    color: #808080;
+ }
+
+.main-section .right-content{
+    width: 50%;
+    background-color: white;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.right-content .heading{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 15px auto;
+}
+
+.right-content .list{
+    width: 95%;
+    margin: 20px auto;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.right-content .list .sub-list .fa-circle{
+    color: #0d67c2;
+    font-size: 10px;
+}
+
+.right-content .list .sub-list .sublist-bold{
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.list .para{
+    font-size: 10px;
+    margin-left: 16px;
+}
+
+.fa-text{
+    color: #808080;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* iocns */
+.fa-linkedin-in{
+    font-size: 25px;
+    color: #0d67c2;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    margin: 15px 5px;
+}
+
+.fa-photo-film{
+    color:rgb(112, 181, 249);
+}
+
+.fa-video{
+    color:rgb(127, 193, 94);
+}
+.fa-calendar-week{
+    color:rgb(231, 163, 62);
+}
+
+.fa-newspaper{
+    color:rgb(252, 146, 149);
+}
+
+li{
+    cursor: pointer;
+}
+
+.hover:hover{
+    color: black;
+}
+
