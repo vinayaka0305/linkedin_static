@@ -1,0 +1,55 @@
+.premiumCard {
+  width: 20vw;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+  padding: 1rem 0.75rem;
+  cursor: pointer;
+}
+
+.premiumCard p{
+    font-size: 12px;
+}
+
+.adOptions {
+  display: flex;
+  align-self: flex-end;
+  gap: 0.5rem;
+  >p{
+    font-size: 12px;
+  }
+}
+
+.images {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.images img {
+  width: 4rem;
+}
+
+.images img:first-child {
+  border-radius: 50%;
+}
+
+.images img:nth-child(2) {
+  background-color: #fff;
+  padding: 2px;
+}
+
+.premiumCard button {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  border: 1px solid #70b5f9;
+  color: #70b5f9;
+  background-color: transparent;
+  font-weight: 600;
+  font-family: inherit;
+}

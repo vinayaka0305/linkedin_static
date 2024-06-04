@@ -1,0 +1,64 @@
+.recommendedJobsContainer {
+  background-color: #1b1f23;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  > header {
+    padding: 1.75rem 1rem 1rem;
+    > h3 {
+      font-weight: 600;
+    }
+    > p {
+      color: #959595;
+      font-size: 14px;
+    }
+  }
+  > button {
+    padding: 1rem;
+    background-color: transparent;
+    border-radius: 0 0 0.5rem 0.5rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+  }
+  > button:hover {
+    background-color: #3d4751;
+  }
+}
+
+.companyCard {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  border-bottom: 1px solid #ffffff1b;
+  padding-top: 1rem;
+  > div:first-child {
+    width: 4rem;
+    margin: 0 1rem;
+    > img {
+      width: 100%;
+    }
+  }
+  > div:nth-child(2) {
+    > a {
+      color: rgb(30, 184, 255);
+    }
+    > h4 {
+      font-weight: 600;
+    }
+    > p {
+      color: #959595;
+      font-size: 14px;
+    }
+    > p:last-child {
+      font-size: 12px;
+      padding: 1rem 0;
+    }
+  }
+  > div:last-child {
+    > svg {
+      margin: 1rem;
+      height: 1.25rem;
+    }
+  }
+}

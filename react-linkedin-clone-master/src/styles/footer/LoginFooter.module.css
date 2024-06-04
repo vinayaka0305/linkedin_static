@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  gap: 1rem;
+  color: #555;
+  font-size: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #fff;
+  padding: 0.75rem 0 1.5rem 0;
+  align-items: center;
+  font-weight: 500;
+  > p:first-child {
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  > a {
+    text-decoration: none;
+    color: inherit;
+  }
+  > select {
+    background-color: transparent;
+    border: none;
+    color: #555;
+  }
+}
+
+@media screen and (width<=600px){
+  .footer{
+    gap: 5px;
+    
+  }
+}

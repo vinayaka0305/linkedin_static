@@ -1,0 +1,23 @@
+.container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    >div{
+        height: 80%;
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 0.5rem;
+        gap: 1rem;
+        >img{
+          height: 50%;
+        }
+        >h3{
+            font-size: 2rem;
+            font-weight: 600;
+        }
+    }
+
+}

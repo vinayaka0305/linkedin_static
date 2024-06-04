@@ -1,0 +1,142 @@
+:root {
+  --bg-light-grey: #575c60;
+  --bg-dark-grey: #1b1f23;
+  --font-grey: #ffffff99;
+}
+
+.profileCard {
+  border-radius: 0.5rem;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  > img {
+    width: 100%;
+    height: 3.5rem;
+    object-fit: cover;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  > p {
+    font-weight: 600;
+  }
+}
+.profileContainer {
+  position: relative;
+  bottom: 1.75rem;
+  display: flex;
+  justify-content: center;
+  > div {
+    width: 25%;
+    height: 2.5rem;
+    > img {
+      width: 100%;
+      border-radius: 50%;
+      border: 2px solid var(--bg-dark-grey);
+    }
+  }
+}
+
+.profileCardName {
+  position: relative;
+  bottom: 1rem;
+  text-decoration: none;
+}
+
+.profileCardName:hover {
+  text-decoration: underline solid #ddd;
+}
+
+.profileCardSkills {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0 0.5rem 0.5rem;
+  position: relative;
+  bottom: 0.45rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1px 5px;
+}
+
+.profileStats {
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem 0;
+  width: 100%;
+}
+
+.profileStats p {
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.25rem 0.75rem;
+}
+
+/* .profileStats p:hover {
+  background-color: var(--bg-light-grey);
+} */
+
+.profileStats p span {
+  color: #3b9dff;
+  font-weight: 600;
+}
+
+.profileCardPremiumLink {
+  font-size: 13px;
+  padding: 0.75rem;
+  width: 100%;
+}
+
+/* .profileCardPremiumLink:hover { */
+  /* background-color: var(--bg-light-grey); */
+/* } */
+
+.profileCardPremiumLink div {
+  display: flex;
+  align-items: center;
+}
+
+.profileCardPremiumLink div a {
+  font-weight: 600;
+}
+.profileCardPremiumLink div svg {
+  color: goldenrod;
+  margin: 0 10px 0 5px;
+}
+
+.profileCard > div:last-child {
+  width: 100%;
+  padding: 1rem;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+/* .profileCard > div:last-child:hover {
+  background-color: var(--bg-light-grey);
+} */
+
+.profileCard > div:last-child svg {
+  margin-right: 10px;
+}
+
+@media screen and (width<=600px) {
+  .profileStats,
+  .profileCardPremiumLink,
+  .profileCard > div:last-child {
+    display: none;
+  }
+  .profileContainer {
+    > div {
+      width: 10%;
+    }
+  }
+}
+
+@media screen and (width<=450px) {
+  .profileCard,
+  .profileCard > img {
+    border-radius: 0;
+  }
+}

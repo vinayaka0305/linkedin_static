@@ -1,0 +1,13 @@
+.container{
+    border-radius: 0.5rem;
+    padding: 1.5vw;
+    >h3{
+        font-weight: 600;
+    }
+    >ul{
+        list-style: none;
+        >li{
+            padding: 1vw 0;
+        }
+    }
+}

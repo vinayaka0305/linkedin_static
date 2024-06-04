@@ -1,0 +1,32 @@
+.container {
+  border-radius: 0.5rem;
+  padding: 1vw;
+  >button{
+    color: rgb(0, 81, 255);
+    width: 100%;
+    border: 1px solid rgb(0, 81, 255);
+    border-radius: 1rem;
+    background: none;
+    font-weight: 600;
+    padding: 0.25rem 0;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+}
+
+.imageContainer{
+    >img{
+        width: 6vw;
+        border-radius: 50%;
+    }
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  > p:first-child {
+    >a{
+        font-weight: 600;
+    }
+  }
+}

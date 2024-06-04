@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.successResults{
+    border-radius: 0.5rem;
+    width: 40%;
+    > div {
+    margin-bottom: 1vh;
+    border-radius: 0.5rem;
+
+    }
+    >div:first-child{
+      >div{
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        >div{
+          width: 48%;
+        }
+      }
+
+      > h2 {
+        font-weight: 500;
+        padding: 1rem 1rem 0;
+      }
+    }
+    >div:last-child{
+      >h2{
+        font-weight: 500;
+        padding: 1rem 1rem 0.5rem;
+      }
+      >div{
+        border-radius: 0;
+      }
+    }
+  
+
+}

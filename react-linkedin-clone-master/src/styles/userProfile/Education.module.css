@@ -1,0 +1,35 @@
+.container{
+    border-radius: 0.5rem;
+    padding: 1.5vw;
+    margin-bottom: 0.5cm;
+    >h3{
+        font-weight: 600;
+    }
+    >ul{
+        list-style: none;
+        >li{
+            padding: 1vw 0;
+            display: flex;
+            gap: 1vw;
+            >div:first-child{
+                >img{
+                    width: 3vw;
+                    height: 3vw;
+                }
+            }
+            >div:last-child{
+                >h4{
+                    font-weight: 600;
+                }
+                >p:nth-child(2){
+                    font-weight: 400;
+                    font-size: 14px;
+                }
+                >p:last-child{
+                    color: #ffffff99;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

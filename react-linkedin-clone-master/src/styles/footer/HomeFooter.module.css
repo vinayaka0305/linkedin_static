@@ -1,0 +1,35 @@
+.footer {
+  padding: 1rem 2rem;
+  width: 20vw;
+}
+
+.footerLinks {
+  display: flex;
+  gap: 0.5rem 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  > p {
+    /* color: #ffffff99; */
+    font-weight: 400;
+    font-size: 12px;
+  }
+  > p:hover {
+    color: #70b5f9;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.footerText {
+  font-size: 12px;
+  padding-top: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  > span {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Varela Round", sans-serif;
+  }
+}

@@ -1,0 +1,83 @@
+.pageNotFound {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pageNotFound header {
+  background-color: #1b1f23;
+  width: 100%;
+  padding: 0.75rem 10rem;
+}
+
+.pageNotFound header h2 {
+  display: flex;
+  gap: 3px;
+}
+
+.pageNotFound header svg {
+  font-size: 30px;
+}
+
+.pageNotFound main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.pageNotFound main div {
+  background: url("../assets/pageNotFound/page-not-found.svg");
+  background-repeat: no-repeat;
+  height: 40%;
+  background-position: center;
+  width: 100%;
+}
+
+.pageNotFound main h2,
+.pageNotFound main p {
+  text-align: center;
+  font-weight: 400;
+}
+
+.pageNotFound main p {
+  width: 95%;
+}
+
+.pageNotFound main button {
+  color: #71b7fb;
+  border: 1px solid #71b7fb;
+  background: transparent;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.pageNotFound footer {
+  display: flex;
+  gap: 1rem;
+  color: #ccc;
+  font-size: 12px;
+  justify-content: center;
+  background-color: #1b1f23;
+  align-items: center;
+  padding: 1rem;
+  font-weight: 600;
+  width: 100%;
+}
+
+.pageNotFound footer p:first-child {
+  font-size: 14px;
+}
+
+.pageNotFound footer a {
+  text-decoration: none;
+  color: inherit;
+}

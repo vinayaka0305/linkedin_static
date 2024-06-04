@@ -1,0 +1,128 @@
+.postCard {
+  border-radius: 0.5rem;
+  >img{
+    width: 100%;
+
+  }
+  >p{
+    padding:0 0.75rem 0.75rem;
+    font-size: 0.9rem;
+  }
+}
+
+.profileDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem;
+  > div {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    > img {
+      width: 3.5rem;
+      border-radius: 50%;
+    }
+    > div {
+      display: flex;
+      flex-direction: column;
+      >a{
+        font-weight: 500;
+        color: #ddd;
+        &:hover {
+          color: #039de5;
+          text-decoration: underline;
+        }
+      }
+      >p{
+        font-size: small;
+      }
+    }
+  }
+  > svg {
+    font-size: larger;
+    align-self: start;
+    padding: 0.5rem 0.55rem;
+    border-radius: 50%;
+  }
+  /* > svg:hover {
+    background-color: #575c60;
+  } */
+}
+
+.likesCommentsCount {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.25rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.75rem;
+  margin: 0 1rem;
+}
+
+.reactionButtons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-weight: 600;
+  justify-items: stretch;
+  padding: 0.25rem 1rem;
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+    > svg {
+      font-size: 1.5rem;
+      padding: 0.5rem;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  > div:hover {
+    /* background-color: #575c60; */
+    cursor: pointer;
+  }
+}
+
+.solidLikeBtn {
+  transform: scaleX(-1);
+  height: inherit;
+  fill: #039de5;
+}
+
+@media screen and (width<=850px) {
+  .reactionButtons>div{
+    padding:0.5rem;
+    >svg{
+      font-size: 1rem;
+      padding: 2px;
+    }
+  }
+}
+
+@media screen and (width<=575px) {
+
+  .reactionButtons>div{
+    >span{
+      display: none;
+    }
+  }
+  .postCard>p{
+    font-size: 12px;
+  }
+
+  .profileDetails{
+    >div{
+      align-items: center;
+      >img{
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+  }
+}
+@media screen and (width<=450px){
+  .postCard{
+    border-radius: 0;
+  }
+}

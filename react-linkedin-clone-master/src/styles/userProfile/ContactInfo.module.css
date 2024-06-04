@@ -1,0 +1,58 @@
+.container{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card{
+    width: 40%;
+    margin-top: 5vh;
+    border-radius: 0.5rem;
+    border: 1px solid #ffffff11;
+    >header{
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem;
+        font-size: 20px;
+        font-weight: 600;
+        >svg{
+            cursor: pointer;
+        }
+    }
+    >section{
+            >p{
+                padding: 0 1rem;
+                font-size: 20px;
+            }
+        
+    }
+}
+
+.infoList{
+    padding: 1rem 0;
+    >div{
+        display: flex;
+        padding: 0.75rem 1.5rem;
+        gap: 1rem;
+        >div{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            >p:first-child{
+                font-weight: 600;
+                font-size: 16px;
+            }
+            >p:last-child{
+                font-size: 14px;
+                font-weight: 600;
+                color: #71b7fb;
+            }
+        }
+    }
+}

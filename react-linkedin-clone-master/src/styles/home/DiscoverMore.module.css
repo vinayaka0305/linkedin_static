@@ -1,0 +1,51 @@
+.discoverMore {
+    border-radius: 0.5rem;
+    margin-top: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-top: 0.9rem;
+  }
+  
+  .discoverMore p {
+    color: #2d96ff;
+    font-weight: 600;
+    font-size: 13px;
+    margin-left: 0.75rem;
+    cursor: pointer;
+  }
+  
+  .discoverMore p:hover {
+    text-decoration: underline;
+  }
+  
+  .discoverMore section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .discoverMore section span {
+    font-size: 24px;
+    margin-right: 0.5rem;
+  }
+  
+  .discoverMore > div {
+    padding: 0.75rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+  
+  /* .discoverMore > div:hover {
+    background-color: #575c60;
+  } */
+  
+  @media screen and (width<=600px){
+    .discoverMore{
+      display: none;
+    }
+  }

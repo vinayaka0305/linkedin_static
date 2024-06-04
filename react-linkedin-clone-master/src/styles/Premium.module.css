@@ -1,0 +1,110 @@
+.premiumPage {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  > nav {
+    border-bottom: 1px solid #605f5f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem 10%;
+    background-color: #1b1f23;
+    > svg {
+      height: 2.5rem;
+      cursor: pointer;
+    }
+    > a {
+      font-weight: 600;
+      padding: 1rem;
+      text-decoration: none;
+      color: #b9bcbf;
+      font-size: 14px;
+      &:hover {
+        color: #fff;
+        text-decoration: underline;
+      }
+    }
+  }
+  > main {
+    border-bottom: 1px solid #605f5f;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    background-color: #1b1f23;
+
+    > h2 {
+      font-weight: 600;
+    }
+    > p {
+      font-weight: 400;
+      &:last-child {
+        color: #8e959a;
+      }
+    }
+  }
+}
+
+.premiumCardContainer {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 12px;
+  padding: 4rem 12% 5rem;
+}
+
+.premiumCard {
+  display: grid;
+  grid-template-rows: auto auto 3fr;
+  background-color: #1b1f23;
+  height: 100%;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  color: gainsboro;
+  > header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    > h1 {
+      font-weight: 600;
+      font-size: 24px;
+    }
+  }
+  > section {
+    background-color: #3d3d3d;
+    height: 1px;
+    width: 100%;
+    margin: 1rem 0;
+  }
+  > main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    > ul {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      > h2 {
+        font-size: 16px;
+        font-weight: 600;
+      }
+      > li {
+        margin-left: 1rem;
+      }
+    }
+    > button {
+      padding: 0.3rem 1rem;
+      border-radius: 2rem;
+      background: transparent;
+      border: 2px solid rgb(30, 184, 255);
+      font-family: inherit;
+      color: rgb(30, 184, 255);
+      font-weight: 600;
+      &:hover {
+        background-color: rgba(30, 184, 255, 0.2);
+        color: rgb(0, 174, 255);
+      }
+    }
+  }
+}

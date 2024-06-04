@@ -1,0 +1,95 @@
+.loginNavBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    padding-right: 12vw;
+  }
+  
+  .loginNavBar h1 {
+    color: #007fbc;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  
+  .loginNavBar > div {
+    display: flex;
+  }
+  
+  .loginNavBar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    > li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem 1rem;
+      font-size: 13px;
+  
+      > svg {
+        height: 1.5rem;
+        width: 1.5rem;
+      }
+    }
+    > li:hover {
+      color: #000;
+      cursor: pointer;
+    }
+  }
+  
+  .loginNavBar ul li:last-child {
+    content: "";
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+  }
+  
+  .loginNavBar > div > div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .loginNavBar div a {
+    color: rgb(40, 40, 40);
+    text-decoration: none;
+    padding: 1rem 1.25rem;
+    margin: 0 10px 0 10px;
+    border-radius: 2rem;
+  }
+  
+  .loginNavBar div a:hover {
+    background-color: #ddd;
+  }
+  
+  .loginNavBar button {
+    text-align: center;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 600;
+    color: var(--blue);
+    background-color: transparent;
+    border: 1px solid var(--blue);
+    padding: 0.75rem 1.25rem;
+    border-radius: 2.5rem;
+  }
+  
+  .loginNavBar button:hover {
+    background-color: #0a66c21f;
+  }
+  
+  @media screen and (width<1000px) {
+    .loginNavBar ul{
+      display: none;
+    }
+    .loginNavBar{
+      padding-right: 0;
+    }
+  }
+
+  @media screen and (width<780px) {
+
+    .loginNavBar h1{
+      font-size: 16px;
+    }
+  }

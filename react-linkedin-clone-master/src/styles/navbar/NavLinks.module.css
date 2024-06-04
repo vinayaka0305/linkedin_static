@@ -1,0 +1,87 @@
+:root {
+  --nav-link-gray: #ffffff99;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  > ul {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    list-style: none;
+    border-right: 1px solid #ffffff2c;
+    > li {
+      > a,
+      .profileLink {
+        color: var(--nav-link-gray);
+        text-decoration: none;
+        padding: 0.5rem 0.75rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+      }
+      > a:hover,
+      .profileLink:hover {
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.navListText {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.businessPremiumLinks {
+  padding: 0rem 1rem;
+  gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  > a {
+    color: goldenrod;
+    text-decoration: underline;
+  }
+  > a:hover {
+    color: gold;
+  }
+}
+.businessLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-grey);
+  > svg:hover {
+    /* color: #fff; */
+    cursor: pointer;
+  }
+}
+
+.profileLink {
+  > div:first-child {
+    height: 20px;
+    width: 20px;
+    > img {
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+}
+
+@media screen and (width<=1100px) {
+  .businessPremiumLinks {
+    display: none;
+  }
+  .navLinks > ul {
+    border: none;
+  }
+}
+
+@media screen and (width<=750px) {
+  .navListText {
+    display: none;
+  }
+}

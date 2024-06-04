@@ -1,0 +1,43 @@
+.notificationsList {
+  background-color: #1b1f23;
+  border-radius: 0.5rem;
+  > div:first-child {
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  > div:last-child {
+    border: none;
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.121);
+  cursor: pointer;
+  > div:first-child {
+    width: 5rem;
+    padding: 1rem;
+    > img {
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+  > div:nth-child(2) {
+    flex: 1;
+    font-size: 14px;
+  }
+  > svg {
+    margin: 0.75rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+  }
+  > svg:hover {
+    background-color: #4b5560;
+  }
+}
+
+.notification:hover {
+  background-color: #2e343b;
+}

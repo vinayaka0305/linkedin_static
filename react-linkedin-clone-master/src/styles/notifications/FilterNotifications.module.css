@@ -1,0 +1,21 @@
+.filterNotifications{
+    background-color:#1b1f23;
+    padding:1rem;
+    margin-bottom: 0.75pc;
+    border-radius: 0.5rem;
+    >button{
+        padding: 0.25rem 0.5rem;
+        border-radius: 2rem;
+        background-color: transparent;
+        margin-right: 0.5rem;
+        border: 1px solid rgba(255, 255, 255, 0.425);
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    >button:first-child{
+        background-color: #37c898;
+        color: #1b1f23;
+        border: 1px solid #37c898;
+    }
+}
