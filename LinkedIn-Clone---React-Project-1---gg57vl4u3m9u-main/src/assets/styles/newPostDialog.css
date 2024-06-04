@@ -1,0 +1,42 @@
+.post-compose-dialog {
+  /* height: 50vh; */
+  width: 30vw;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+}
+.post-compose-dialog .post-header {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.post-compose-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.post-compose-input {
+  border: none;
+  width: 70%;
+  margin: 1rem;
+}
+.post-compose-input #input-textarea {
+  border: none;
+  outline: none;
+  width: 70%;
+  overflow: hidden;
+}
+.img-upload {
+  /* width: auto; */
+  cursor: pointer;
+  margin: 1rem;
+}
+.img-upload button {
+  background-color: none;
+}
+
+@media (max-width: 650px) {
+  .post-compose-dialog {
+    width: 80vw;
+  }
+}

@@ -1,0 +1,89 @@
+
+
+.feed-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  position: sticky;
+  
+}
+.feed-left-profile,
+.feed-left-recent {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-about {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5px;
+}
+.profile-about h3 a{
+  color: inherit;
+  text-decoration: none;
+}
+.profile-about h3 a:hover{
+  text-decoration: underline;
+}
+.feed-left-profile .skills {
+  overflow: visible !important;
+  padding: 0 10px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  text-align: center;
+}
+.feed-left-profile .skills span{
+    font-size: 0.8rem;
+    border-right: 1px solid gray;
+    padding: 0 5px;
+}
+.feed-left-profile .skills span:last-child{
+    border-right: none;
+    padding:0;
+}
+
+.profile-stats{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2px;
+    gap: 1rem;
+}
+.profile-stats-view, .profile-stats-network{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.profile-stats a{
+    text-decoration: none;
+    color: #666666;
+    font-size: 0.8rem;
+}
+.profile-stats a:hover, .feed-left-recent a:hover{
+    text-decoration: underline;
+    color: #2d2c2c;
+}
+
+.feed-left-recent{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.feed-left-recent a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #666666;
+}
+
+@media (max-width:650px) {
+  .feed-left-recent{
+    display: none;
+  }
+}

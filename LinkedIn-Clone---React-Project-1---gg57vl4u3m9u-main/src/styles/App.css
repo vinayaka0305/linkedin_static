@@ -1,0 +1,29 @@
+*{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    top: 0;
+    left: 0;
+    
+}
+body{
+    background-color: #F4F2EE;
+    margin: 0;
+}
+.main-container{
+    width: 100vw;
+}
+
+.feature-unavailable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.unavailable-alert-dialog{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}

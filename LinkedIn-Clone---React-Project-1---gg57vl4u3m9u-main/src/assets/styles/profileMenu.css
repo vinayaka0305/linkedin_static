@@ -1,0 +1,25 @@
+.profilemenu-avatar-heading{
+    display: flex;
+    align-items: center;
+}
+.profilemenu-avatar-heading-user{
+    display: flex;
+    flex-direction: column;
+}
+#profilemenu-username{
+    font-weight: bold !important;
+    color: black !important;
+}
+
+.MuiTypography-root{
+    font-weight: bold !important;
+    padding-left: 7px;
+}
+.MuiMenuItem-root{
+    color: #666666 !important;
+}
+.customMenuItem:hover{
+    background-color: transparent !important;
+  color: inherit;
+  cursor: default;
+}

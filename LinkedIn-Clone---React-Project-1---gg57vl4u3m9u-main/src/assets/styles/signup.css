@@ -1,0 +1,54 @@
+
+.logo{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.signup-heading{
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.signup-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    gap: 1rem;
+    max-width: 25%;
+}
+
+
+#agreementText{
+    font-size: 0.8rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.signin-redirection a{
+    text-decoration: none;
+}
+
+
+.MuiOutlinedInput-notchedOutline {
+    border-color: #000000 !important;
+  }
+.MuiInputLabel-root {
+    color: rgb(0, 0, 0) !important;
+    font-size: smaller !important;
+  }
+
+
+  @media (max-width: 650px){
+    .signup-form{
+        max-width: fit-content;
+    }
+  }

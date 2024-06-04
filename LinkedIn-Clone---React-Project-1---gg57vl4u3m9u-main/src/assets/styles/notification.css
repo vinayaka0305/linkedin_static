@@ -1,0 +1,47 @@
+.notification-container{
+    background-color: #fff;
+    margin: 1.5rem auto;
+    width: 45%;
+    border-radius: 15px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.single-notification{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: #666666;
+    /* margin: 1rem 0; */
+    
+}
+.single-notification a{
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #666666;
+}
+.single-notification a:hover{
+    color: #242424;
+}
+.single-notification>div{
+    text-align: right;
+    font-size: 0.7rem;
+    
+}
+.notification-filter-button{
+    background-color: #fff;
+    margin: 1.5rem auto;
+    width: 45%;
+    border-radius: 15px;
+    padding: 1.5rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+@media (max-width:730px) {
+    .notification-filter-button,.notification-container{
+        width: 90%;
+    }
+}
+    

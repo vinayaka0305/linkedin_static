@@ -1,0 +1,48 @@
+.feed-right {
+  box-sizing: border-box;
+
+  width: fit-content;
+  background-color: white;
+  border-radius: 15px;
+  padding: 2rem;
+  position: sticky;
+  
+}
+.news-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -40px;
+}
+.news-heading .MuiButtonBase-root:hover {
+  background-color: transparent !important;
+}
+.news-heading .MuiButtonBase-root {
+  margin-right: -30px;
+}
+.news-list {
+  list-style: none;
+}
+
+.news-list a {
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+.news-list li {
+  margin-bottom: 1.5rem;
+}
+
+.news-list a:hover {
+  text-decoration: underline;
+}
+.news-list p {
+  font-weight: bold;
+  color: black;
+  margin: 0;
+}
+.news-list span {
+  color: #666666;
+}
+.news-list span:active {
+  color: black;
+  text-decoration: none;
+}
