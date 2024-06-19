@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f2ee;
+}
+a{
+  text-decoration: none;
+}
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: transparent;
+  box-shadow: none;
+}
+.guest_header .css-1x7skt0 {
+  background-color: #f4f2ee !important;
+  box-shadow: none;
+}
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid rgb(140 140 140/0.2);
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+.global_header .css-1x7skt0{
+  box-shadow: none !important;
+  background-color: #fff !important;
+}
+.global_header {
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  min-height: 100%;
+  width: 1128px;
+}
+.global_header .css-96uuyl {
+  margin-left: 9px;
+}
+.global_header .search_icon-header svg {
+  color: rgb(0 0 0/0.9);
+}
+.global_header .MuiInputBase-colorPrimary {
+  border-radius: 0.4rem;
+  background-color: #edf3f8;
+}
+.global_header .MuiInputBase-input {
+  width: 100%;
+  line-height: 1.75;
+  font-weight: 400;
+  font-size: 14px;
+  height: 34px;
+  color: rgb(0 0 0/0.9);
+  padding: 3px 30px !important;
+}
+.css-1iz4iln svg path {
+  color: #edf3f8 !important;
+}
+.header_icon {
+  display: flex;
+  flex-direction: column;
+}
+.header_icon h5 {
+  color: rgb(0 0 0/0.6);
+  font-size: 13px;
+  margin-top: 2px;
+}
+.header_icon svg path {
+  color: #666666 !important;
+  font-size: 16px;
+}
+.header_more_icon svg path {
+  color: #666666 !important;
+}
+.main_header_dropdown .MuiMenu-paper {
+  top: 70px !important;
+  border: 4px;
+}
+.header_icon:hover {
+  background-color: transparent !important;
+}
+.header_icon:hover h5,
+.header_icon:hover svg path {
+  color: #000 !important;
+}
+ul li .profile-image {
+  border-radius: 50%;
+}
+.css-to4x1n-MuiBadge-badge {
+  top: 4px;
+  font-size: 10px;
+  padding: 0 5px;
+}
+@media (max-width: 1167px) {
+  .global_header {
+    width: 100%;
+  }
+}
+/* main page css */
+/* aside  */
+.bg_linkedin_main {
+  background-image: url(../images/linkedin_banner.png);
+  background-position: center;
+  background-size: cover;
+  display: block;
+  height: 56.25px;
+  margin: -1.2rem -1.2rem 0;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+}
+.member_photo {
+  border-radius: 50%;
+  margin: -38px auto 1.2rem;
+  border: 2px solid #fff;
+  background-color: #fff;
+}
+/* main feed */
+.border_radius-50 img {
+  border-radius: 50%;
+}
+.toolbar_wrapper button span {
+  margin-left: 0.8rem;
+  color: rgb(0 0 0/0.6);
+  text-transform: capitalize;
+}
+.toolbar_wrapper_post button span{
+   margin-left: 0.3rem;
+  color: rgb(0 0 0/0.6);
+  text-transform: capitalize;
+}
+.content_feed_name a {
+  font-size: 12px;
+  text-decoration: none;
+}
+.create_post_modal .css-fzumoh{
+  padding: 18px 21px!important
+}
+.EmojiPickerReact.epr-main{
+  height: 330px !important;
+    width: 350px !important;
+    position: absolute !important;
+    top: 70px;
+    left: -124px;
+}
+.image-preview {
+  position: relative;
+  margin-bottom: 20px;
+}
+.image-preview:hover img {
+  opacity: 0.4;
+  cursor: pointer;
+}
+.image-preview:hover span {
+  display: block;
+  cursor: pointer;
+}
+
+.remove-preview-img {
+  position: absolute;
+  display: none;
+  top: -4px;
+  right: 2px;
+  opacity: 1 !important;
+}
+@media(max-width: 767px){
+  .css-h2sb3d{
+    margin: 0px !important;
+  }
+  .css-1qsxih2{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .css-fzumoh, .css-19uqmr6{
+    width: 92vw !important;
+  }
+ 
+.css-1oqqzyl-MuiContainer-root{
+  padding-left: 0px;
+  padding-right: 5px;
+}
+.user_info_card .css-1w9xeum{
+  flex-direction: column !important;
+}
+.user_info_card .css-1w9xeum .job_education{
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+}
+@media(max-width: 480px){
+.css-fzumoh{
+    height: 76vh !important;
+  }
+
+}
+@media(max-width: 576px){
+.css-fs6082{
+  left: 45px !important;
+}
+ .premium_page .css-qvpmyc{
+    padding: 20px 35px !important;
+  }
+.css-mij4h{
+  margin-left: 10px !important;
+}
+}
+
+@media(max-width: 992px){
+.EmojiPickerReact.epr-main{
+  left: 0px !important;
+}}
+.loading {
+  height: 0;
+  width: 0;
+  padding: 10px;
+  border: 3px solid #ccc;
+  border-right-color: #888;
+  border-radius: 22px;
+  animation: rotate 1s infinite linear;
+  position: relative;
+  left: 45%;
+  margin-bottom: 20px;
+}
+.create-grp-btn:hover{
+box-shadow: none !important;
+background-color: #1976D2 !important;
+color: #fff !important;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.groups-list-card .MuiCardHeader-title {
+  font-size: 15px;
+}
+.dropdown-menu{
+  color: gray;
+  margin-left: 16px;
+  text-decoration: none;
+}
+.dropdown-menu:hover{
+  text-decoration: underline;
+}
+.profile-img{
+  margin-bottom: 20px;
+}
+  .profile-img img{
+    border: 3px solid #fdd835;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    box-shadow: 0px 0px 5px 0px #c1c1c1;
+    cursor: pointer;
+  }
+
+  /* profile img*/
+.profile-user-img {
+  width: 100px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+ border: 3px solid #d2d6de; 
+ padding: 3px;
+ height: 100px;
+}
+.img-circle{
+  object-fit: cover;
+}
+
+.avatar-upload {
+  position: relative;
+  max-width: 205px;
+  margin-bottom: 20px;
+}
+.avatar-upload .avatar-edit {
+  position: absolute;
+  right: 80px;
+  z-index: 1;
+  top: 90px;
+}
+.avatar-edit input {
+  display: none;
+}
+.avatar-upload .avatar-edit input + label {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  margin-bottom: 0;
+  border-radius: 100%;
+  background: #FFFFFF;
+  border: 1px solid #d2d6de;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+}
+.avatar-upload .avatar-edit input + label:hover {
+  background: #f1f1f1;
+  border-color: #d6d6d6;
+}
+.avatar-upload .avatar-edit input + label:after {
+  content: "";
+  font-family: "FontAwesome";
+  color: #337AB7;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  line-height: 34px;
+  margin: auto;
+}
+.image-upload-cam svg{
+  position: absolute !important;
+    font-size: 1.5rem !important;
+    bottom: 15px !important;
+    left: 80px !important;
+    cursor: pointer;
+}
+.comment-box label{
+  line-height: 0.8;
+  font-size: 14px;
+}
+.comment-box .MuiInputBase-formControl{
+padding: 9.5px;
+  border-radius: 35px !important;
+}
+.comment-box textarea{
+  font-size: 13px;
+}
+
+@-webkit-keyframes spin {
+	 from {
+		 -webkit-transform: rotate(0deg);
+	}
+	 to {
+		 -webkit-transform: rotate(360deg);
+	}
+}
+ @keyframes spin {
+	 from {
+		 transform: rotate(0deg);
+	}
+	 to {
+		 transform: rotate(360deg);
+	}
+}
+ #cover-spin {
+	 position: fixed;
+	 width: 100%;
+	 left: 0;
+	 right: 0;
+	 top: 0;
+	 bottom: 0;
+	 background-color: rgba(255, 255, 255, 0.4);
+	 z-index: 9999;
+	 display: none;
+}
+ #cover-spin::after {
+	 content: '';
+	 display: block;
+	 position: absolute;
+	 left: 48%;
+	 top: 40%;
+	 width: 35px;
+	 height: 35px;
+	 border-style: solid;
+	 border-color: #1976D2;
+	 border-top-color: transparent;
+	 border-width: 4px;
+	 border-radius: 50%;
+	 -webkit-animation: spin 0.8s linear infinite;
+	 animation: spin 0.8s linear infinite;
+}
+ 
+.coming-soon-wrapper{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  animation: fadeIn 1000ms ease;
+  -webkit-animation: fadeIn 1000ms ease;
+  
+}
+
+.coming-soon-wrapper h1 {
+  font-size: 64px;
+  margin-bottom: 0;
+  line-height: 1;
+  font-weight: 700;
+  color: #1976D2;
+}
+.coming-soon-wrapper p{
+  text-align: center;
+  margin: 18px;
+  font-weight: normal;
+}
